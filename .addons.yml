@@ -2,6 +2,6 @@
 channel: edge
 addons:
   mopidy:
-    repository: enlight3d/addon-mopidy
+    repository: hassio-addons/addon-mopidy
     target: mopidy
-    image: ghcr.io/hassio-addons/mopidy/{arch}
+    image: docker.io/thibaudmathieu/mopidy-hassio:{arch}
