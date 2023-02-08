@@ -1,16 +1,16 @@
 arch:
-- amd64
+  - amd64
 audio: true
 auth_api: true
 description: Mopidy is an extensible music server
-image: ghcr.io/hassio-addons/mopidy/{arch}
+image: docker.io/thibaudmathieu/mopidy-hassio:{arch}
 ingress: true
 ingress_entry: iris/
 ingress_stream: true
 map:
-- config
-- share:rw
-- ssl
+  - config
+  - share:rw
+  - ssl
 name: Mopidy
 options:
   python_packages: []
@@ -29,12 +29,12 @@ schema:
   leave_front_door_open: bool?
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   python_packages:
-  - str
+    - str
   settings:
-  - name: str
-    value: str
+    - name: str
+      value: str
   system_packages:
-  - str
+    - str
 slug: mopidy
-url: https://github.com/hassio-addons/addon-mopidy
-version: b39bd04
+url: https://github.com/enlight3d/addon-mopidy
+version: 49fc6d
