@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Mopidy
+# Home Assistant Community Add-on: Mopidy (v3.4.1-1)
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
