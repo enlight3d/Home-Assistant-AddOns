@@ -1,0 +1,7 @@
+---
+channel: edge
+addons:
+  mopidy:
+    repository: enlight3d/addon-mopidy
+    target: mopidy
+    image: ghcr.io/hassio-addons/mopidy/{arch}
